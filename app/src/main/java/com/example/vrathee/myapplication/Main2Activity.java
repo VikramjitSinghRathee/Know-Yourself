@@ -7,7 +7,7 @@ import android.widget.ListView;
 public class Main2Activity extends AppCompatActivity {
 
     ListView listView;
-
+//// this is to check if you git push is being done correctly
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
