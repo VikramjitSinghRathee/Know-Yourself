@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageButton imgbut2;
     ImageButton imgbut3;
     ImageButton imgbut4;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,29 +32,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        /*
+
         switch (v.getId()) {
 
             case R.id.imageButton1:
-                // do your code
+                intent = new Intent(this, Main3Activity.class);
                 break;
 
             case R.id.imageButton2:
-                // do your code
+                intent = new Intent(this, Main5Activity.class);
                 break;
 
             case R.id.imageButton3:
-                // do your code
+                intent = new Intent(this, Main4Activity.class);
                 break;
 
             case R.id.imageButton4:
-                // do your code
+                intent = new Intent(this, Main2Activity.class);
                 break;
 
             default:
                 break;
-        }*/
-        Intent intent = new Intent(this, Main2Activity.class);
+        }
         startActivity(intent);
     }
 }
