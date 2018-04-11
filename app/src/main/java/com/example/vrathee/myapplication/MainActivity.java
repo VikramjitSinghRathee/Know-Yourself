@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -12,6 +13,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageButton imgbut2;
     ImageButton imgbut3;
     ImageButton imgbut4;
+    Button button1;
+
     Intent intent;
 
     @Override
@@ -23,10 +26,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imgbut2 = (ImageButton) findViewById(R.id.imageButton2);
         imgbut3 = (ImageButton) findViewById(R.id.imageButton3);
         imgbut4 = (ImageButton) findViewById(R.id.imageButton4);
+        button1 = (Button) findViewById(R.id.value_list_button);
         imgbut1.setOnClickListener(this);   // this is the callback initiated when the button is created
         imgbut2.setOnClickListener(this);
         imgbut3.setOnClickListener(this);
         imgbut4.setOnClickListener(this);
+        button1.setOnClickListener(this);
 
     }
 
@@ -49,6 +54,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.imageButton4:
                 intent = new Intent(this, Main2Activity.class);
+                break;
+
+            case R.id.value_list_button:
+                intent = new Intent(this, Main6Activity.class);
                 break;
 
             default:

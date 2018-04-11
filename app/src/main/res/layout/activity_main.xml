@@ -11,7 +11,7 @@
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:background="@null"
@@ -20,7 +20,7 @@
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:background="@null"
@@ -29,7 +29,7 @@
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:background="@null"
@@ -38,9 +38,15 @@
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="100dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:background="@null"
         android:src="@drawable/very_angry_emoji" />
+
+    <Button
+        android:id="@+id/value_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 </LinearLayout>
