@@ -35,4 +35,17 @@ dependencies {
 
     //circle imageview
     implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    // for snackbar
+    implementation 'com.android.support:design:27.1.1'
+
+}
+
+// for making chart
+dependencies {
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
 }

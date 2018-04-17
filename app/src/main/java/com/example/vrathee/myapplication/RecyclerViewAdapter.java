@@ -2,6 +2,7 @@ package com.example.vrathee.myapplication;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -40,7 +41,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
+    public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
         Log.d(TAG, "onBindViewHolder: called"); // should print corresponding to number of items.
         
         Glide.with(mcontext)
@@ -54,6 +55,32 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             public void onClick(View v) {
                 Log.d(TAG, "onClick: clicked on " + mImageNames.get(position));
                 Toast.makeText(mcontext, mImageNames.get(position),Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        holder.parentLayout.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                // MAYBE THINK ABOUT REPLACING SNACKBAR WITH A DIALOG ??
+
+                final Snackbar snackbar = Snackbar.make(v, "his is a totally random paragraph that doesnt " +
+                        "actually mean anything, and is really talking about " +
+                        "the random paragraph, there isnt much to worry sbout " +
+                        "because its just a random paragraph, don’t worry, " +
+                        "everything will be ok when random paragraph is by your side! " +
+                        "Random paragraph is a completely random typed text, hense the " +
+                        "name ‘random paragraph’.  "+mImageNames.get(position), Snackbar.LENGTH_INDEFINITE);
+                View snackbarView = snackbar.getView();
+                TextView textView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
+                textView.setMaxLines(20);  // show multiple line
+                snackbar.setAction("ok", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        snackbar.dismiss();
+                    }
+                });
+                snackbar.show();
+                return true;
             }
         });
     }

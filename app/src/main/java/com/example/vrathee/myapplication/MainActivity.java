@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageButton imgbut3;
     ImageButton imgbut4;
     Button button1;
+    Button button2;
 
     Intent intent;
 
@@ -27,11 +28,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imgbut3 = (ImageButton) findViewById(R.id.imageButton3);
         imgbut4 = (ImageButton) findViewById(R.id.imageButton4);
         button1 = (Button) findViewById(R.id.value_list_button);
+        button2 = (Button) findViewById(R.id.chart_button);
         imgbut1.setOnClickListener(this);   // this is the callback initiated when the button is created
         imgbut2.setOnClickListener(this);
         imgbut3.setOnClickListener(this);
         imgbut4.setOnClickListener(this);
         button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
 
     }
 
@@ -58,6 +61,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.value_list_button:
                 intent = new Intent(this, Main6Activity.class);
+                break;
+
+            case R.id.chart_button:
+                intent = new Intent(this, Main7Activity.class);
                 break;
 
             default:
