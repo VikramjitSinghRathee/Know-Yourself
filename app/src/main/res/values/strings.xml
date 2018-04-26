@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="Authenticity">his is a totally random paragraph that doesnt
+                        actually mean anything, and is really talking about
+                        the random paragraph, there isnt much to worry sbout
+                        because its just a random paragraph, don’t worry
+                        everything will be ok when random paragraph is by your side!
+                        Random paragraph is a completely random typed text, hense the
+                        name ‘random paragraph</string>
+    <string name="Achievement">random achievement paragraph</string>
+
 </resources>
