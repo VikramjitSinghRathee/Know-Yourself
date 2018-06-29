@@ -5,54 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@drawable/ic_launcher_background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:scaleType="fitCenter"
-        android:background="@null"
-        android:src="@drawable/slightly_smiling_face_emoji" />
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="IMAGE SUBJECT TO CHANGE!"/>
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="73dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-        android:background="@null"
-        android:src="@drawable/neutral_face_emoji" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:background="@null"
-        android:src="@drawable/crying_face_emoji" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:background="@null"
-        android:src="@drawable/very_angry_emoji" />
+        android:src="@drawable/core_value"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/value_list_button"
-        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:textSize="25sp"
+        android:scaleType="fitCenter"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="25dp"
+        android:text="Core Values List" />
 
     <Button
         android:id="@+id/chart_button"
-        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_width="250dp"
+        android:scaleType="fitCenter"
         android:layout_height="wrap_content"
-        android:text="CHART Button" />
+        android:textSize="25sp"
+        android:background="@drawable/rounded_button2"
+        android:text=" Value PieChart" />
+
 </LinearLayout>

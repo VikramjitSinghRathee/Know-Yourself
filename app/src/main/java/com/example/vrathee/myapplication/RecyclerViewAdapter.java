@@ -103,7 +103,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
                 // deftype string looks for name in the strings.xml. this is important, for drawable it's drawable
                 int resID = mcontext.getResources().getIdentifier(valueNameInfo,"string", mcontext.getPackageName());
-                String infotext = res.getString(resID)+ mImageNames.get(position);;
+                String infotext = res.getString(resID); //+ mImageNames.get(position);;
 
                 // we can get correct info for the position clicked by editing strings.xml and
                 // naming each string in strings.xml corresponding to mImageNames.get(position)
@@ -112,7 +112,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 View snackbarView = snackbar.getView();
                 TextView textView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
                 textView.setMaxLines(20);  // show multiple line
-                snackbar.setAction("ok", new View.OnClickListener() {
+                snackbar.setAction("CLOSE", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         snackbar.dismiss();

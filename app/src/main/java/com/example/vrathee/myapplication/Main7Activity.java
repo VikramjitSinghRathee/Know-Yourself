@@ -2,6 +2,8 @@ package com.example.vrathee.myapplication;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.AssetManager;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,6 +21,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
@@ -108,7 +111,7 @@ public class Main7Activity extends AppCompatActivity {
         }
 
         // set dataset for piechart
-        PieDataSet set = new PieDataSet(pieEntries, "Test Chart");
+        PieDataSet set = new PieDataSet(pieEntries, "");
         set.setColors(ColorTemplate.COLORFUL_COLORS);
         PieData data = new PieData(set);
 
@@ -117,9 +120,13 @@ public class Main7Activity extends AppCompatActivity {
         chart.setData(data);
         chart.animateY(1000);
 
+        //chart.setCenterTextSize(100);
+        //Typeface typeface=Typeface.createFromAsset(getAssets(), "fonts/your font.ttf");
+        //chart.setCenterTextTypeface(typeface);
+
         // set description
         Description description = new Description();
-        description.setText("GUCCI GANG");
+        description.setText("Value Importance Breakdown");
         chart.setDescription(description);
 
         // refresh

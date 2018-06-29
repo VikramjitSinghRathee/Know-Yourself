@@ -1,13 +1,77 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Core Values List and Definitions</string>
 
-    <string name="Authenticity">his is a totally random paragraph that doesnt
-                        actually mean anything, and is really talking about
-                        the random paragraph, there isnt much to worry sbout
-                        because its just a random paragraph, don’t worry
-                        everything will be ok when random paragraph is by your side!
-                        Random paragraph is a completely random typed text, hense the
-                        name ‘random paragraph</string>
-    <string name="Achievement">random achievement paragraph</string>
+    <string name="Authenticity">representing one’s true nature or beliefs; true to oneself or to the person identified</string>
+    <string name="Achievement">something accomplished, especially by superior ability, special effort,
+        great courage, etc.; a great or heroic deed</string>
+    <string name="Adventure">participation in exciting undertakings or enterprises</string>
+    <string name="Authority">the power to determine, adjudicate, or otherwise settle
+        issues or disputes; jurisdiction; the right to control, command, or determine</string>
+    <string name="Autonomy">independence or freedom, as of the will or one\'s actions</string>
+    <string name="Balance">mental steadiness or emotional stability; habit of calm behavior, judgment, etc.</string>
+    <string name="Beauty">the quality present in a thing or person that gives intense pleasure or deep satisfaction to the mind,
+        a meaningful design or pattern, or something else</string>
+    <string name="Boldness">not hesitating or fearful in the face of actual or possible danger or rebuff; courageous and daring</string>
+    <string name="Compassion">a feeling of deep sympathy and sorrow for another who is stricken
+        by misfortune, accompanied by a strong desire to alleviate the suffering</string>
+    <string name="Challenge">something that by its nature or character serves as a call to battle, contest, special effort, etc.</string>
+    <string name="Citizenship">the character of an individual viewed as a member of society; behavior in terms
+        of the duties, obligations, and functions of a citizen</string>
+    <string name="Community">a social, religious, occupational, or other group sharing common characteristics or interests and perceived or perceiving itself as
+        distinct in some respect from the larger society within which it exists</string>
+    <string name="Competency">the quality of being competent; adequacy; possession of required skill, knowledge, qualification, or capacity</string>
+    <string name="Contribution">to be an important factor in; help to cause</string>
+    <string name="Creativity">the ability to transcend traditional ideas, rules, patterns, relationships, or the like, and to create meaningful new ideas, forms, methods,
+        interpretations, etc.; originality, progressiveness, or imagination</string>
+    <string name="Curiosity">the desire to learn or know about anything; inquisitiveness</string>
+    <string name="Determination">the quality of being resolute; firmness of purpose</string>
+    <string name="Fairness">the state, condition, or quality of being fair, or free from bias or injustice; evenhandedness</string>
+    <string name="Faith">belief in God or in the doctrines or teachings of religion</string>
+    <string name="Fame">widespread reputation, especially of a favorable character; renown; public eminence</string>
+    <string name="Friendships">attachment to another by feelings of affection or personal regard</string>
+    <string name="Fun">enjoyment or playfulness</string>
+    <string name="Growth">the act or process, or a manner of growing; development; gradual increase</string>
+    <string name="Happiness">good fortune; pleasure; contentment; joy</string>
+    <string name="Honesty">truthfulness, sincerity, or frankness</string>
+    <string name="Humor">expressing or perceiving the amusing or comical</string>
+    <string name="Influence">the capacity or power of persons or things to be a compelling
+        force on or produce effects on the actions, behavior, opinions, etc., of others</string>
+    <string name="Inner_Harmony">a consistent, orderly, or pleasing arrangement of thoughts, feelings, and emotions</string>
+    <string name="Justice">the quality of being just; righteousness, equitableness, or moral rightness</string>
+    <string name="Kindness">of a good or benevolent nature or disposition, as a person</string>
+    <string name="Knowledge">acquaintance with facts, truths, or principles, as from study or investigation; general erudition</string>
+    <string name="Leadership">the position or function of a leader, a person who guides or directs a group</string>
+    <string name="Learning">knowledge acquired by systematic study in any field of scholarly application</string>
+    <string name="Love">a feeling of warm personal attachment or deep affection, as for a parent, child, or friend</string>
+    <string name="Loyalty">faithfulness to commitments or obligations</string>
+    <string name="Meaningful_Work">the end, purpose, or significance of effort directed to produce or accomplish something</string>
+    <string name="Openness">accessible to appeals, ideas, or offers</string>
+    <string name="Optimism">a disposition or tendency to look on the more favorable side
+        of events or conditions and to expect the most favorable outcome</string>
+    <string name="Peace">a state of mutual harmony between people or groups, especially in personal relations</string>
+    <string name="Pleasure">enjoyment or satisfaction derived from what is to one\'s liking; gratification; delight</string>
+    <string name="Poise">a dignified, self-confident manner or bearing; composure; self-possession</string>
+    <string name="Popularity">the favor of the general public or of a particular group of people</string>
+    <string name="Recognition">appreciation of (achievement, service, merit, etc.), as by some reward, public honor, or the like</string>
+    <string name="Religion">a set of beliefs concerning the cause, nature, and purpose of the universe, especially
+        when considered as the creation of a superhuman agency or agencies, usually involving devotional and
+        ritual observances, and often containing a moral code governing the conduct of human affairs</string>
+    <string name="Reputation">a favorable and publicly recognized name or standing for merit, achievement, reliability, etc.</string>
+    <string name="Respect">esteem for or a sense of the worth or excellence of a person, a personal quality or ability, or something considered
+        as a manifestation of a personal quality or ability</string>
+    <string name="Responsibility">the state or fact of being responsible, answerable, or accountable
+        for something within one's power, control, or management</string>
+    <string name="Security">freedom from danger, risk, etc.; safety</string>
+    <string name="Self_Respect">proper esteem or regard for the dignity of one\'s character</string>
+    <string name="Service">something made or done for the public benefit and without regard to direct profit</string>
+    <string name="Spirituality">relating to sacred things or matters; religious; devotional; sacred</string>
+    <string name="Stability">steadfastness; constancy, as of character or purpose</string>
+    <string name="Success">the favorable or prosperous termination of attempts or endeavors; the accomplishment of one\'s goals</string>
+    <string name="Status">the position of an individual in relation to another or others,
+        especially in regard to social or professional standing</string>
+    <string name="Trustworthiness">deserving of trust or confidence; dependable; reliable</string>
+    <string name="Wealth">a great quantity or store of money, valuable possessions, property, or other riches</string>
+    <string name="Wisdom">the quality or state of being wise; knowledge of what is true or right coupled with just judgment as to action; sagacity, discernment, or insight</string>
+
 
 </resources>
